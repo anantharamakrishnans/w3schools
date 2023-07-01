@@ -18,6 +18,11 @@
 
     <link rel="icon"  sizes="144x144"  href="images/bio.png" />
     <link rel="stylesheet" href="css/app-css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
     <form>
@@ -28,34 +33,49 @@
             <section>
                 <article>
                     <h2>Brief</h2>
-                    
-                    <div class="container">
-                        <div><span name="fname" class="fieldHeadings">First Name:</span> Anantha</div>
-                        <br />
+                   
+                        <div class="container">
+                            <div class="cellcontainer">
+                                <span name="fname" class="fieldHeadings">First Name:</span> 
+                            </div>
+                            <div class="cellcontainer">Anantha</div>
 
-                        <div><span name="lname" class="fieldHeadings">Last Name:</span> Subramanian</div>
-                        <br />
+                            <div class="cellcontainer">
+                                <span name="lname" class="fieldHeadings">Last Name:</span> 
+                            </div>
+                            <div class="cellcontainer">Subramanian</div>
 
-                        <div><span name="githuburl" class="fieldHeadings">Github URL:</span>https://github.com/anantharamakrishnans</div>
-                        <br />
-                        
-                        <div><span name="location" class="fieldHeadings">Location:</span> <img src="images/India-flag.png" alt="India-flag" width="50" height="25"/></div>
-                        <br />
-                        
-                        
-                        <div><span name="hobbies" class="fieldHeadings">Hobbies:</span>Listening to bollywood music, playing badminton</div>
-                        <br />
+                            <div class="cellcontainer">
+                                <span name="githuburl" class="fieldHeadings">Github URL:</span>
+                            </div>
+                            <div class="cellcontainer">https://github.com/anantharamakrishnans</div>
+                            
+                            <div class="cellcontainer">
+                                <span name="location" class="fieldHeadings">Location:</span>
+                            </div>
+                            <div class="cellcontainer"> 
+                                <img src="images/India-flag.png" alt="India-flag" width="50" height="25"/>
+                            </div>
+                            
+                            
+                            <div class="cellcontainer">
+                                <span name="hobbies" class="fieldHeadings">Hobbies:</span>
+                            </div>
+                            <div class="cellcontainer">Listening to bollywood music, playing badminton</div>
 
-                        <div>
-                            <span name="photo" class="fieldHeadings">Photo:</span>
-                            <img
+                            <div class="cellcontainer">
+                                <span name="photo" class="fieldHeadings">Photo:</span>
+                            </div>
+                            <div class="cellcontainer">
+                                <img
                                 src="images/Anantha_Photo.jpg"
                                 alt="Photo of Anantha"
                                 width="125"
                                 height="125" />
-                        </div>
-                    </div>      
-                    
+                            </div>
+
+                        </div>      
+                   
                 </article>
 
             
@@ -63,26 +83,22 @@
                     <legend>Contact:</legend>
                     
                     <label for="fname">Name:</label>
-                    <br />
+                 
                     <input type="text" id="fname" name="fname">
-                    <br />
-                    <br />
+                   
 
                     <label for="email">Email:</label>
-                    <br />
+                   
                     <input type="text" id="email" name="email">
-                    <br />
-                    <br />
+                    
 
                     <label for="comments">Comments:</label>
-                    <br />
-                    <textarea  rows="4" cols="50" id="comments" name="comments"> </textarea>
-                    <br />
-                    <br />
-                     <button class="button" type="submit">Save</button> 
                     
+                    <textarea  rows="4" cols="50" id="comments" name="comments"> </textarea>                   
                 </fieldset>
-            
+                <div class="btn-container">
+                    <button class="button" type="submit">Save</button> 
+                </div>
             </section>
         </main>
 
