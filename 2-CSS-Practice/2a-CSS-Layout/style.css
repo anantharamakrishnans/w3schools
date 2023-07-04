@@ -1,0 +1,126 @@
+li {
+    display: inline;
+}
+
+span {
+    display: block;
+    border: red solid 2px;
+}
+
+body{
+    border: blue solid 2px;
+}
+
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+#float-example {
+    float: right;
+    margin-left: 15px;
+}
+
+#float-ex, #float-ex2, #float-ex3 {
+    float: left;
+    padding: 15px;
+}
+
+.div1 {
+    background: red;
+}
+
+.div2 {
+    background: yellow;
+}
+
+.div3 {
+    background: green;
+}
+
+
+
+
+
+.div1 {
+    float: right;
+    padding: 10px;
+    border: 3px solid #73AD21;
+}
+  
+.div2 {
+    padding: 10px;
+    border: 3px solid red;
+}
+
+.div3 {
+    float: right;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+}
+
+.div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: right;
+}
+
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+
+div.static {
+    top:500px;
+    /* position: static;  */
+    position: relative; 
+    border: 3px solid #73AD21;
+}
+
+div.positioncontainer{
+    border: 3px solid red;
+    width: 800vh;
+    height: 800vh;
+}
+
+
+div.relative-abs {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    padding: 200px;
+    border: 3px solid #73AD21;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+div.sticky {
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }

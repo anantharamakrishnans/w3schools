@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    
+    <title>CSS Layouts</title>
+</head>
+<body>
+     
+
+       <div class="positioncontainer">
+
+        <h2>position: sticky;</h2>
+        <p>Try to scroll inside this frame to understand how sticky positioning works.</p>
+
+        <div class="sticky">I am sticky!</div>
+
+        <h2>position: absolute;</h2>
+
+        <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+        <div class="relative-abs">This div element has position: relative;
+        <div class="absolute">This div element has position: absolute;</div>
+        </div>
+
+        <h2>position: static;</h2>
+
+        <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+    
+        <div class="static">
+        This div element has position: static;
+        </div>
+    </div>
+
+
+
+
+
+    <h3>CSS Width and Max-width</h3>
+    <div class="ex1">This div element has width: 500px;</div>
+    <br>
+    <div class="ex2">This div element has max-width: 500px;</div>
+
+
+
+    <h2>Without clear</h2>
+    <div class="div1">div1</div>
+    <div class="div2">div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the right, the text in div2 flows around div1.</div>
+    <br><br>
+
+    <h2>With clear</h2>
+    <div class="div3">div3</div>
+    <div class="div4">div4 - Here, clear: right; moves div4 down below the floating div3. The value "right" clears elements floated to the left. You can also clear "right" and "both".</div>
+
+
+
+
+
+
+
+
+
+    <h3>Float Next To Each Other</h3>
+
+    <p>In this example, the three divs will float next to each other.</p>
+
+    <div class="div1" id="float-ex">Div 1</div>
+    <div class="div2" id="float-ex2">Div 2</div>
+    <div class="div3" id="float-ex3">Div 3</div>
+
+
+
+    <h3>Floats</h3>
+
+    <p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>
+
+    <p><img id="float-example" src="https://picsum.photos/170"/>
+    This is random paragraph. The image is floated to the right. This is helpful to have text wrap around the image, in case</p>
+
+
+
+
+
+    <h3>CSS Width and Max-width</h3>
+    <div class="ex1">This div element has width: 500px;</div>
+    <br>
+    <div class="ex2">This div element has max-width: 500px;</div>
+
+    <h3>Display a list of links as a horizontal menu:</h3>
+    <ul>
+        <li><a href="/html/default.asp" target="_blank">HTML</a></li>
+        <li><a href="/css/default.asp" target="_blank">CSS</a></li>
+        <li><a href="/js/default.asp" target="_blank">JavaScript</a></li>
+    </ul>
+
+    <h3>Display span elements as block elements</h3>
+    <span>A display property with</span>
+    <span>a value of "block" results in</span>
+    <span>a line break between each span elements.</span>
+    
+</body>
+</html>
