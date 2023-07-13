@@ -26,6 +26,7 @@
 
 // const arr = ["Apple", "Banana", "Orange"];
 // console.log("arr",typeof arr);
+// typeof arr == "object"
 
 // const obj = {firstName: "John", lastName: "Smith"};
 // console.log("obj",typeof obj);
