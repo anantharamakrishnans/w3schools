@@ -64,6 +64,20 @@
 // }while(doWhileCount < 10);
 
 
-for(let i = 5; i < 20; i++){
-    console.log(`The current value is ${i}`);
-}
+// for(let i = 5; i < 20; i++){
+//     console.log(`The current value is ${i}`);
+// }
+
+
+// const person = {fname:"John", lname:"Doe", age:25}; 
+// let txt = "";
+// for (let x in person) {
+//   txt += person[x] + " ";
+// }
+
+
+// const cars = ["BMW", "Volvo", "Mini"];
+// let text = "";
+// for (let x of cars) {
+//   text += x + "<br>";
+// }
