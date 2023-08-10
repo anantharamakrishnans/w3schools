@@ -10,7 +10,7 @@ function Parent() {
         <Child firstName='Daisy' petType='hamster'></Child>
         <Child></Child>
 
-        <Car></Car>
+        <Car />
 
 
         {/* rfce shorcut for react functional component export*/}
